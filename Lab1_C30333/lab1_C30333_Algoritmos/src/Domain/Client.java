@@ -9,6 +9,7 @@ package Domain;
  * @author wtfan
  */
 public class Client {
+
     private String id;
     private String name;
     private String phone;
@@ -58,15 +59,14 @@ public class Client {
 
     @Override
     public String toString() {
-        String result="Client Information"
-                +"\n------------------------"
-                +"\nId: "+this.getId()
-                +"\nName: "+this.getName()
-                +"\nName: "+this.getPhone()
-                +"\nName: "+this.getAddres();
+        String result = "Client Information"
+                + "\n------------------------"
+                + "\nId: " + this.getId()
+                + "\nName: " + this.getName()
+                + "\nName: " + this.getPhone()
+                + "\nName: " + this.getAddres();
         return result;
-     
+
     }
-    
-    
+
 }
